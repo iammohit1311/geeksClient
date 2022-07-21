@@ -25,9 +25,7 @@ app
       return handle(req, res);
     });
 
-    const PORT = process.env.PORT || 3000;
-
-    server.listen(PORT, (err) => {
+    server.listen(3000, (err) => {
       if (err) throw err;
       console.log("> Read on http://localhost:8000");
     });
